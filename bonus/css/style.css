@@ -1,0 +1,266 @@
+/* Regole Generali */
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+/* Intestazione */
+
+#intro{
+    height: 580px;
+    margin-bottom: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+/*barra navigazione   */
+#barra {
+    padding-top: 15px;
+ 
+    display: flex;
+    justify-content: space-around;
+   
+    
+
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    
+    
+    
+}
+#icon{
+
+margin-left: 115px;
+
+}
+.item {
+    margin-left: 27px;
+    width: 120px;
+    text-align: center;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+}
+#accedi {
+    height: 34px;
+    width: 67px;
+    margin: 0px 145px;
+    border-radius: 20px;
+    border: none;
+}
+#titolo {
+   
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    padding: 20px 140px;
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+
+#titolo-1{
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+#introduzione{
+    margin-top: 40px;
+    font-size: 27px;
+}
+
+#introduzione,#titolo-1{
+    color: white;
+}
+
+.btn {
+    height: 43px;
+    margin-top: 10px;
+    border-radius: 26px;
+    font-size: 16px;
+    font-family: 'Whitney', sans-serif;
+    border: none;
+
+}
+.nero {
+    background-color: black;
+    width: 219px;
+    color: white;
+    margin-left: 10px;
+}
+.bianco{
+    background-color: white;
+    width: 150px;
+    
+}
+.cyan {
+    background-color: cyan;
+    color: white;
+    width: 11%;
+}
+/* Contenuto Principale */
+
+.grey-container{
+    background-color: #f1f3f4;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+.flex-container{
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+
+    
+}
+.immmagine {
+  max-width: 100%;
+}
+.titolo-cap {
+    margin-top: 6%;
+    font-size: 65px;
+}
+
+.paragrafo-cap {
+    margin-top: 30px;
+    font-size: 24px;
+}
+    
+}
+.img{
+   
+    width: 60%;
+
+}
+.capitolo{
+    /* background-color: yellow; */
+    width: 40%;
+}
+
+.titolo-2{
+    padding-top: 70px;
+    font-size: 57px;
+}
+
+.green{
+    /* background-color: green; */
+    margin-bottom: 20px;
+    /* height: 300px; */
+    
+}
+.spiegazione , .green{
+    width: 80%;
+    margin:  auto;
+    padding-top: 50px;
+}
+.spiegazione{
+    font-size: 20px;
+}
+
+.star {
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-image: url(../img/stars.svg);
+    padding-top: 8px;
+    width:80%;
+    margin: auto;
+}
+
+.titolo-3{
+ font-size: 28px;
+}
+
+/* Footer */
+#finale{
+    
+    background-color: #23272a;
+   
+}
+
+#titolo-crediti{
+    color: #6d85d6;
+    font-size: 35px;
+
+
+}
+#bandiera {
+   
+    width: 13%;
+    
+}
+
+#scritta{
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    color: white;
+    margin-top: 5%;
+}
+.partner-container {
+    display: flex;
+    color: white;
+    margin-top: 5%;
+    justify-content: space-between;
+    width: 76%;
+}
+
+
+
+#credit{
+    
+    width: 20%;
+}
+#credit-container{
+    padding: 25px 0px;
+    width: 80%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 1px;
+   
+
+}
+.credit-list{
+    list-style-type: none;
+
+}
+
+.titolo-link{
+    color:#6d85d6; 
+}
+
+.credit-list a{
+color: white;
+text-decoration: none;
+}
+.final-container {
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin: auto;
+    border-top: solid 1px #6d85d6;
+    display: flex;
+    justify-content: space-between;
+}
+.rec {
+    background-color: #6d85d6;
+    color: white;
+    height: 30px;
+    width: 8%;
+    border-radius: 26px;
+    font-size: 14px;
+    font-family: 'Whitney', sans-serif;
+    border: none;
+}
