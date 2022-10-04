@@ -113,11 +113,21 @@ margin-left: 115px;
     padding-bottom: 50px;
 }
 
+.wave-1hkxOo {
+    padding-top: 8%;
+    color: #f1f3f4;
+    margin-bottom: -1%;
+}
 
+.wave-2{
+    color: white;
+    margin-bottom: -5%;
+}
 
 .flex-container{
     width: 80%;
     margin: auto;
+    /* margin-bottom: 8%; */
     
     display: flex;
 
