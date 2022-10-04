@@ -86,6 +86,7 @@ margin-left: 115px;
     border-radius: 26px;
     font-size: 16px;
     font-family: 'Whitney', sans-serif;
+    border: none;
 
 }
 .nero {
@@ -102,7 +103,6 @@ margin-left: 115px;
 .cyan {
     background-color: cyan;
     color: white;
-    border: none;
     width: 11%;
 }
 /* Contenuto Principale */
@@ -171,6 +171,8 @@ margin-left: 115px;
     background-position-y: 100%;
     background-image: url(../img/stars.svg);
     padding-top: 8px;
+    width:80%;
+    margin: auto;
 }
 
 .titolo-3{
@@ -179,15 +181,44 @@ margin-left: 115px;
 
 /* Footer */
 #finale{
-    /* height: 300px; */
-    background-color: red;
+    
+    background-color: #23272a;
    
 }
+
 #titolo-crediti{
+    color: #6d85d6;
+    font-size: 35px;
+
 
 }
+#bandiera {
+   
+    width: 13%;
+    
+}
+
+#scritta{
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    color: white;
+    margin-top: 5%;
+}
+.partner-container {
+    display: flex;
+    color: white;
+    margin-top: 5%;
+    justify-content: space-between;
+    width: 76%;
+}
+
+
+
 #credit{
-    background-color: aqua;
+    
     width: 20%;
 }
 #credit-container{
@@ -204,7 +235,30 @@ margin-left: 115px;
     list-style-type: none;
 
 }
+
+.titolo-link{
+    color:#6d85d6; 
+}
+
 .credit-list a{
 color: white;
 text-decoration: none;
+}
+.final-container {
+    width: 80%;
+    padding-top: 1%;
+    margin: auto;
+    border-top: solid 1px #6d85d6;
+    display: flex;
+    justify-content: space-between;
+}
+.rec {
+    background-color: #6d85d6;
+    color: white;
+    height: 30px;
+    width: 8%;
+    border-radius: 26px;
+    font-size: 14px;
+    font-family: 'Whitney', sans-serif;
+    border: none;
 }
