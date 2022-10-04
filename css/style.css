@@ -99,8 +99,11 @@ margin-left: 115px;
     width: 150px;
     
 }
-.cyan{
+.cyan {
     background-color: cyan;
+    color: white;
+    border: none;
+    width: 11%;
 }
 /* Contenuto Principale */
 
@@ -160,7 +163,18 @@ margin-left: 115px;
     padding-top: 50px;
 }
 .spiegazione{
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.star {
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-image: url(../img/stars.svg);
+    padding-top: 8px;
+}
+
+.titolo-3{
+ font-size: 28px;
 }
 
 /* Footer */
