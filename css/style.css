@@ -6,50 +6,51 @@
     padding0;
 }
 body{
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Whitney', sans-serif;
 }
 
 /* Intestazione */
 
 #intro{
-    height: 400px;
+    height: 480px;
     margin-bottom: 20px;
-    
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 /*barra navigazione   */
 #barra {
-    
-  
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
     padding-top: 15px;
+ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    
+
 }
 #menu{
     list-style-type: none;
     display: flex;
     
     
+    
 }
 #icon{
-background-color: white;
-width: 100px;
-height: 50px;
+
 margin-left: 115px;
+
 }
-.item{
-    background-color: blue;
-    border: black solid 1px;
-    width: 70px;
-    height: 30px;
-
-
+.item {
+    margin-left: 27px;
+    color: white;
+    width: 120px;
+    text-align: center;
 }
 #accedi {
-    height: 32px;
-    width: 82px;
-    margin: 0px 20px;
+    height: 34px;
+    width: 67px;
+    margin: 0px 145px;
     border-radius: 20px;
+    border: none;
 }
 #titolo {
    
@@ -60,20 +61,25 @@ margin-left: 115px;
     margin-top: 20px;
     text-align: center;
 }
- #titolo-1 ,p{
-    margin-top: 20px;
-    height: 50px;
-}
+ 
+
 #titolo-1{
-    background-color: yellow;
+    font-size: 45px;
+    margin-top: 80px;
 }
+
 #introduzione{
-    background-color: green;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#introduzione,#titolo-1{
+    color: white;
 }
 
 .btn {
     height: 30px;
-    margin-top: 15px;
+    margin-top: 60px;
     border-radius: 15px;
 }
 .nero{
